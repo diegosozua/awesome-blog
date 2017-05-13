@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="article-post">
+  <div class="centered">
+    <header class="header-post">
+      <h1 class="h1-post-title">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <span>{{ post.date | date: "%m/%d/%Y" }}</span>
+      </p>
+    </header>
+    
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</article>
