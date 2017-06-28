@@ -7,6 +7,8 @@ url: "http://diegosc.com" # the base hostname & protocol for your site, e.g. htt
 # Build settings
 markdown: kramdown
 
+permalink: /:title
+
 exclude:
   - Gemfile
   - Gemfile.lock
