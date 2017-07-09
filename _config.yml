@@ -1,8 +1,8 @@
 title: Awesome Blog
 email: example@example.com
 description: This blog is awesome!
-baseurl: "awesome-blog" # the subpath of your site, e.g. /blog
-url: "http://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
